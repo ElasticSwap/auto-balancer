@@ -47,7 +47,6 @@ contract AutoBalancer is Ownable {
             _expirationTimestamp
         );
         // 4. remove liquidity (yielding both base and quote tokens)
-        // TODO: do we need a min quote tokens we get back here for slippage?
         exchange.removeLiquidity(
             exchange.balanceOf(address(this)),
             0, // _baseTokenQtyMin,
