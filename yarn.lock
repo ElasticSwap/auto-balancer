@@ -28,12 +28,13 @@
   resolved "https://registry.yarnpkg.com/@colors/colors/-/colors-1.5.0.tgz#bb504579c1cae923e6576a4f5da43d25f97bdbd9"
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
-"@elasticswap/elasticswap@^0.0.10":
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/@elasticswap/elasticswap/-/elasticswap-0.0.10.tgz#ee0d4a0c4bb8e6929a45e5d335bd85ab63f765a0"
-  integrity sha512-EMjfQkgUO+6fw8J0kgBGllyOIiMYE2rFEfCPBASZ48RnulJZZrfEbeSTr3drmxKXqLvnPgObgZ+MnZALjin+0A==
+"@elasticswap/elasticswap@^0.0.14":
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/@elasticswap/elasticswap/-/elasticswap-0.0.14.tgz#0b4b87e051a01650a70367ca47f0c22c1bd00b45"
+  integrity sha512-w59kj2tc3XYCLh3Z8MK7AAxX1U1+VmQA4CRu80RqZBDhKcyTIQSVg74sZLQdFvObgBAGkizXV88cBCs1jzixpw==
   dependencies:
     "@nomiclabs/hardhat-ethers" "^2.0.2"
+    "@nomiclabs/hardhat-etherscan" "^3.0.3"
     "@nomiclabs/hardhat-waffle" "^2.0.1"
     "@openzeppelin/contracts" "^4.5.0"
     bignumber.js "^9.0.2"
@@ -656,11 +657,6 @@
   dependencies:
     "@types/sinon-chai" "^3.2.3"
     "@types/web3" "1.0.19"
-
-"@openzeppelin/contracts-upgradeable@^4.5.2":
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/@openzeppelin/contracts-upgradeable/-/contracts-upgradeable-4.6.0.tgz#1bf55f230f008554d4c6fe25eb165b85112108b0"
-  integrity sha512-5OnVuO4HlkjSCJO165a4i2Pu1zQGzMs//o54LPrwUgxvEO2P3ax1QuaSI0cEHHTveA77guS0PnNugpR2JMsPfA==
 
 "@openzeppelin/contracts@^4.5.0":
   version "4.6.0"

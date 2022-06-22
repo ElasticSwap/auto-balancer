@@ -37,7 +37,7 @@
     "prettier-plugin-solidity": "1.0.0-beta.3"
   },
   "dependencies": {
-    "@elasticswap/elasticswap": "^0.0.10",
+    "@elasticswap/elasticswap": "^0.0.14",
     "@nomiclabs/hardhat-ethers": "^2.0.2",
     "@nomiclabs/hardhat-etherscan": "^3.0.3",
     "@nomiclabs/hardhat-waffle": "^2.0.1",
